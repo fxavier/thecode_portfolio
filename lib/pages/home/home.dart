@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:thecode_portfolio/pages/components/carousel.dart';
+import 'package:thecode_portfolio/pages/components/cv_section.dart';
+import 'package:thecode_portfolio/pages/components/footer.dart';
 import 'package:thecode_portfolio/pages/components/header.dart';
 import 'package:thecode_portfolio/utils/constants.dart';
 import 'package:thecode_portfolio/utils/globals.dart';
@@ -67,10 +69,17 @@ class Home extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Container(
-              child: const Header(),
-            ),
+            const Header(),
             Carousel(),
+            // ignore: prefer_const_constructors
+            SizedBox(
+              height: 20.0,
+            ),
+            const CvSection(),
+            const SizedBox(
+              height: 40.0,
+            ),
+            const Footer(),
           ],
         ),
       )),
