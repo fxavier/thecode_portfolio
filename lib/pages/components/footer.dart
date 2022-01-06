@@ -15,20 +15,20 @@ final List<FooterItem> footerItems = [
   FooterItem(
     iconPath: "assets/phone.png",
     title: "TELEFONE",
-    text1: "+258 84-689-9604",
-    text2: "+258 87-689-9632",
+    text1: "+258 84-248-3635",
+    text2: "+258 84-322-7203",
   ),
   FooterItem(
     iconPath: "assets/email.png",
     title: "EMAIL",
-    text1: "hello@example.com",
-    text2: "info@example.com",
+    text1: "tthecode22@gmail.com",
+    text2: "info@thecode.com",
   ),
   FooterItem(
     iconPath: "assets/whatsapp.png",
     title: "WHATSAPP",
-    text1: "+258 84-689-9604",
-    text2: "+258 87-689-9632",
+    text1: "+258 84-248-3635",
+    text2: "+258 84-322-7203",
   )
 ];
 
@@ -135,7 +135,7 @@ Widget _buildUi(double width, BuildContext context) {
                   const Padding(
                     padding: EdgeInsets.only(bottom: 8.0),
                     child: Text(
-                      "Copyright (c) 2021 The code. Todos os direitos reservados",
+                      "Copyright (c) 2021 The code Consultorias e Serviços. Todos os direitos reservados",
                       style: TextStyle(
                         color: kCaptionColor,
                       ),

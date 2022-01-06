@@ -25,14 +25,14 @@ List<HeaderItem> headerItems = [
     title: "PORTFÓLIO",
     onTap: () {},
   ),
-  HeaderItem(
+  /*  HeaderItem(
     title: "BLOGS",
     onTap: () {},
-  ),
+  ), */
   HeaderItem(
     title: "CONTACTE-NOS",
     onTap: () {},
-    isButton: true,
+    // isButton: true,
   ),
 ];
 

@@ -8,33 +8,32 @@ import 'package:thecode_portfolio/utils/screen_helper.dart';
 
 final List<DesignProcess> designProcesses = [
   DesignProcess(
-    title: "DESIGN",
+    title: "SOBRE NÓS",
     imagePath: "assets/design.png",
-    subtitle:
-        "Somos especializados em desenhar suas interfaces que atendem suas necessidades de forma simples, amigável e com uma boa experiência do usuário.",
+    subtitle: "Somos uma pequena empresa",
   ),
   DesignProcess(
     title: "CRIAÇÃO",
     imagePath: "assets/develop.png",
     subtitle:
-        "Criamos softwares desde a sua concepção até produção. Somos especializados em criar Sistemas complexos, tornados simples e da facil uso e que adapta-se as suas necessidades.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm",
   ),
   DesignProcess(
     title: "RELATÓRIOS",
     imagePath: "assets/write.png",
     subtitle:
-        "Craiamos todo o tipo de relatório que o cliente imaginar de uma forma dinâmica e exportamos para Excel e/ou PDF.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm",
   ),
   DesignProcess(
     title: "VISUALIZAÇÕES",
     imagePath: "assets/promote.png",
     subtitle:
-        "Aplicamos ciência de dados para criar dashboard, isto é, criar gráficos e tabelas vitais para a tomada rápida de decisão em um único lugar.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm",
   ),
 ];
 
-class CvSection extends StatelessWidget {
-  const CvSection({Key? key}) : super(key: key);
+class QuemSomos extends StatelessWidget {
+  const QuemSomos({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

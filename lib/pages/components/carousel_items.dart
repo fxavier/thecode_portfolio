@@ -49,9 +49,9 @@ List<CarouselItemModel> carouselItems = List.generate(
         Wrap(
           children: [
             const Text(
-              "Precisa de sistemas gestão, recolha de dados, mobile e visualizações?",
+              "Precisa de sistemas gestão, recolha de dados, mobile e dashboards? Nos temos a solução.",
               style: TextStyle(
-                color: kCaptionColor,
+                color: Colors.white, //kCaptionColor,
                 fontSize: 15.0,
                 height: 1.5,
               ),
@@ -61,7 +61,7 @@ List<CarouselItemModel> carouselItems = List.generate(
               child: const MouseRegion(
                 cursor: SystemMouseCursors.click,
                 child: Text(
-                  " Tem algum projecto? Contacte-nos.",
+                  "Tem algum projecto?",
                   style: TextStyle(
                     height: 1.5,
                     color: Colors.white,
@@ -89,7 +89,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             child: TextButton(
               onPressed: () {},
               child: const Text(
-                "COMECE AGORA",
+                "CONTACTE-NOS AGORA",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 13.0,
